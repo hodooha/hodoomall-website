@@ -1,0 +1,106 @@
+.nav-link {
+  color: black;
+}
+
+.title {
+  color: #088A85;
+}
+
+
+h5 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.ment {
+  color: grey;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 0.8rem;
+}
+
+.shop-card-title {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.card-footer {
+  font-weight: 500;
+  text-align: center;
+  background-color: white;
+}
+
+.last-card {
+  padding-left: 0;
+  padding-right: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.comp-text {
+  line-height: 1.5;
+}
+
+.footer-text {
+  font-size: 0.7rem;
+}
+
+.footer-title {
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+
+.cs-num {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+footer span {
+  padding: 0 5px;
+  color: #222;
+}
+
+footer span span {
+  font-weight: 100;
+}
+
+@media screen and (max-width: 48rem) {
+  .footerbox {
+    flex-direction: column;
+  }
+
+  .footer-smallbox {
+    padding-bottom: 3rem;
+  }
+
+  .footer-title {
+    margin: 0;
+    color: white;
+  }
+
+  .footer-text {
+    color: white;
+  }
+
+  footer {
+    background-color: #088A85;
+  }
+
+  footer span {
+    color: white;
+  }
+
+  footer a {
+    color: white;
+  }
+}
